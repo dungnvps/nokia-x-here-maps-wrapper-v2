@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="nokia_services_version">0</integer>
+
+    <attr name="mapType_Nokia">
+        <enum name="normal_Nokia" value="1" />
+        <enum name="satellite_Nokia" value="2" />
+        <enum name="terrain_Nokia" value="3" />
+        <enum name="hybrid_Nokia" value="4" />
+    </attr>
+
+    <declare-styleable name="mapAttrs_Nokia">
+        <attr name="cameraBearing_Nokia" format="float" />
+        <attr name="cameraTargetLat_Nokia" format="float" />
+        <attr name="cameraTargetLng_Nokia" format="float" />
+        <attr name="cameraTilt_Nokia" format="float" />
+        <attr name="cameraZoom_Nokia" format="float" />
+        <attr name="mapType_Nokia" />
+        <attr name="uiCompass_Nokia" format="boolean" />
+        <attr name="uiRotateGestures_Nokia" format="boolean" />
+        <attr name="uiScrollGestures_Nokia" format="boolean" />
+        <attr name="uiTiltGestures_Nokia" format="boolean" />
+        <attr name="uiZoomControls_Nokia" format="boolean" />
+        <attr name="uiZoomGestures_Nokia" format="boolean" />
+        <attr name="useViewLifecycle_Nokia" format="boolean"/>
+        <attr name="zOrderOnTop_Nokia" format="boolean"/>
+    </declare-styleable></resources>
